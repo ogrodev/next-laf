@@ -1,0 +1,39 @@
+{
+  "name": "next-laf",
+  "version": "1.0.0",
+  "description": "Next LAF is a tool to help you to bootstrap a fullstack application with NextJS and some basic needs without effort.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "ogrodev",
+    "url": "https://linkedin.com/in/inpedromendes"
+  },
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "components",
+    "ui",
+    "tailwind",
+    "radix-ui",
+    "shadcn",
+    "next-laf",
+    "nextjs",
+    "next.js",
+    "next-template"
+  ],
+  "type": "module",
+  "exports": "./dist/index.js",
+  "bin": "./dist/index.js",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^11.1.0",
+    "conf": "^12.0.0"
+  },
+  "devDependencies": {
+    "tsup": "^8.0.1"
+  }
+}
